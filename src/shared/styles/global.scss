@@ -1,0 +1,78 @@
+@import "./variables.scss";
+
+.constrained-content {
+  width: 100%;
+  // height: 100%;
+  max-width: 1200px;
+  // border: 1px solid red;
+  // padding: $padding__small;
+  // padding-top: $padding__medium;
+}
+
+#feature-container {
+  display: flex;
+  height: 100%;
+}
+
+.flex--row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex--column {
+  display: flex;
+  flex-direction: column;
+}
+
+.full--width {
+  width: 100%;
+}
+
+.full--height {
+  height: 100%;
+}
+
+.margin__center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.default {
+  color: $text--color__default;
+  background: $background--color__default;
+}
+
+.alt {
+  color: $text--color__alt;
+  background: $background--color__alt;
+}
+
+.secondary__default {
+  color: $text--color__alt;
+  background: $background--color__alt;
+}
+
+.secondary__alt {
+  color: $text--color__default;
+  background: $background--color__default;
+}
+
+.text__default {
+  color: $text--color__default;
+}
+
+.text__alt {
+  color: $text--color__alt;
+}
+
+.background__default {
+  background: $background--color__default;
+}
+
+.background__alt {
+  background: $background--color__alt;
+}
+
+.text__center {
+  text-align: center;
+}
