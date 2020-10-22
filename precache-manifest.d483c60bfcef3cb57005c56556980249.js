@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19b756959e7ca5400be10393bd08f83f",
+    "revision": "324b0c58fe78c146da019460eb940941",
     "url": "/mr-clean/index.html"
   },
   {
-    "revision": "66a2c00e324f098cd4d7",
-    "url": "/mr-clean/static/css/main.6fd3ade9.chunk.css"
+    "revision": "54e6ae5f296cf5ce65ee",
+    "url": "/mr-clean/static/css/main.55fd9df8.chunk.css"
   },
   {
     "revision": "43c5bbd733d9198743bc",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mr-clean/static/js/2.a9fd2d54.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66a2c00e324f098cd4d7",
-    "url": "/mr-clean/static/js/main.0271b829.chunk.js"
+    "revision": "54e6ae5f296cf5ce65ee",
+    "url": "/mr-clean/static/js/main.1efc88aa.chunk.js"
   },
   {
     "revision": "df271cac920d64d90b33",
