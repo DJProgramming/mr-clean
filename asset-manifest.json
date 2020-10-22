@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mr-clean/static/css/main.6fd3ade9.chunk.css",
+    "main.js": "/mr-clean/static/js/main.94d6f199.chunk.js",
+    "main.js.map": "/mr-clean/static/js/main.94d6f199.chunk.js.map",
+    "runtime-main.js": "/mr-clean/static/js/runtime-main.0c0333c7.js",
+    "runtime-main.js.map": "/mr-clean/static/js/runtime-main.0c0333c7.js.map",
+    "static/js/2.bb15a7dc.chunk.js": "/mr-clean/static/js/2.bb15a7dc.chunk.js",
+    "static/js/2.bb15a7dc.chunk.js.map": "/mr-clean/static/js/2.bb15a7dc.chunk.js.map",
+    "index.html": "/mr-clean/index.html",
+    "precache-manifest.8b5b974b20c86788144539bb64115b6d.js": "/mr-clean/precache-manifest.8b5b974b20c86788144539bb64115b6d.js",
+    "service-worker.js": "/mr-clean/service-worker.js",
+    "static/css/main.6fd3ade9.chunk.css.map": "/mr-clean/static/css/main.6fd3ade9.chunk.css.map",
+    "static/js/2.bb15a7dc.chunk.js.LICENSE.txt": "/mr-clean/static/js/2.bb15a7dc.chunk.js.LICENSE.txt",
+    "static/media/Ford-GT-2017-sq.jpg": "/mr-clean/static/media/Ford-GT-2017-sq.09c6c541.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c0333c7.js",
+    "static/js/2.bb15a7dc.chunk.js",
+    "static/css/main.6fd3ade9.chunk.css",
+    "static/js/main.94d6f199.chunk.js"
+  ]
+}
