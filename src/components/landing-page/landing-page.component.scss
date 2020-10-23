@@ -93,10 +93,49 @@
 
   #service-notes-container {
     margin-bottom: $padding__large;
+    padding: $padding__1;
   }
 
   .service-note {
     margin-top: $margin__tiny;
+    font-size: .8rem;
+    list-style: none;
+  }
+
+  #contact {
+    text-align: center;
+  }
+  
+  .contact-container {
+    width: 100%;
+    display: flex;
+    padding: $padding__1;
+    margin-bottom: $margin__xlarge;
+    // border: 1px solid red;
+  
+    .contact-element {
+      display: flex;
+      flex-direction: column;
+      flex: 33%;
+      // border: 1px solid black;
+      justify-content: center;
+      text-align: center;
+      // align-items: center;
+  
+      * {
+        margin-top: $margin__small;
+      }
+    }
+  
+    #email-link {
+      color: inherit;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  .social-media--link img {
+    width: 3rem;
   }
 
   @media only screen and (max-width: 900px) {
@@ -116,6 +155,19 @@
       // #landing-page--title {
       //   text-shadow: 0 0 .5rem #000f;
       // }
+    }
+
+    #table-labels {
+      display: none !important;
+      // background: green;
+    }
+
+    .contact-container {
+      flex-direction: column;
+
+      .contact-element {
+        margin-top: $margin__large;
+      }
     }
   }
 }

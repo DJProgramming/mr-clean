@@ -7,8 +7,13 @@ export const TableRow = (props: any) => {
   // const [theme] = useGlobal<Global>('theme');
 
   return (
-    <div className={`table--row`}
+    <div className={`${props.class} table--row`}
     >
+      {/* {props.image ? (
+        <div className='service--image-container'>
+        <img className='service--image' src={props.image} alt="service"/>
+      </div>
+      ) : null} */}
       <div className='service--property service--name'>
         {props.name}
       </div>

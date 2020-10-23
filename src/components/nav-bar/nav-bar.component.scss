@@ -20,6 +20,8 @@
     min-height: 2rem;
     font-size: 1.75rem;
     margin-bottom: $margin__medium;
+    text-decoration: none;
+    color: inherit;
   }
 
   #menu-options {
@@ -33,7 +35,7 @@
     .menu-option {
       margin-right: $margin__1;
       cursor: pointer;
-      color: black;
+      color: inherit;
       text-decoration: none;
     }
   }

@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { Router } from 'react-router-dom';
-import history from './shared/history';
+import { BrowserRouter } from 'react-router-dom';
+// import history from './shared/history';
 // import { Store } from './shared/store';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Store/> */}
-    <Router history={history}>
+    <BrowserRouter basename="/mr-clean">
       <App/>
-    </Router>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

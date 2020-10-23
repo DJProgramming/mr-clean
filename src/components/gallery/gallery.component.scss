@@ -1,0 +1,32 @@
+@import "../../shared/styles/variables.scss";
+
+#gallery-page-component {
+  height: 100%;
+  // border: 1px solid black;
+}
+
+#gallery-container {
+  margin: 0 auto;
+  // border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  // align-items: center;
+  justify-content: center;
+}
+
+.image-list--element {
+  // flex: 33%;
+  // width: 33%;
+  // display: grid;
+  // place-items: center;
+  // min-width: 400px;
+  // max-width: 600px;
+  flex: 1 1 300px;
+  margin: $margin__small;
+  max-width: 300px;
+}
+
+.gallery-image {
+  // max-width: 100%;
+  width: 100%;
+}
