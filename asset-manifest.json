@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/mr-clean/static/css/main.55fd9df8.chunk.css",
-    "main.js": "/mr-clean/static/js/main.1efc88aa.chunk.js",
-    "main.js.map": "/mr-clean/static/js/main.1efc88aa.chunk.js.map",
+    "main.css": "/mr-clean/static/css/main.96d44475.chunk.css",
+    "main.js": "/mr-clean/static/js/main.72590c7a.chunk.js",
+    "main.js.map": "/mr-clean/static/js/main.72590c7a.chunk.js.map",
     "runtime-main.js": "/mr-clean/static/js/runtime-main.0c0333c7.js",
     "runtime-main.js.map": "/mr-clean/static/js/runtime-main.0c0333c7.js.map",
-    "static/js/2.a9fd2d54.chunk.js": "/mr-clean/static/js/2.a9fd2d54.chunk.js",
-    "static/js/2.a9fd2d54.chunk.js.map": "/mr-clean/static/js/2.a9fd2d54.chunk.js.map",
+    "static/js/2.56deae29.chunk.js": "/mr-clean/static/js/2.56deae29.chunk.js",
+    "static/js/2.56deae29.chunk.js.map": "/mr-clean/static/js/2.56deae29.chunk.js.map",
     "index.html": "/mr-clean/index.html",
-    "precache-manifest.d483c60bfcef3cb57005c56556980249.js": "/mr-clean/precache-manifest.d483c60bfcef3cb57005c56556980249.js",
+    "precache-manifest.966c7ed135debc0061ab79b9e8b9992d.js": "/mr-clean/precache-manifest.966c7ed135debc0061ab79b9e8b9992d.js",
     "service-worker.js": "/mr-clean/service-worker.js",
-    "static/css/main.55fd9df8.chunk.css.map": "/mr-clean/static/css/main.55fd9df8.chunk.css.map",
-    "static/js/2.a9fd2d54.chunk.js.LICENSE.txt": "/mr-clean/static/js/2.a9fd2d54.chunk.js.LICENSE.txt",
-    "static/media/Ford-GT-2017-sq.jpg": "/mr-clean/static/media/Ford-GT-2017-sq.09c6c541.jpg"
+    "static/css/main.96d44475.chunk.css.map": "/mr-clean/static/css/main.96d44475.chunk.css.map",
+    "static/js/2.56deae29.chunk.js.LICENSE.txt": "/mr-clean/static/js/2.56deae29.chunk.js.LICENSE.txt",
+    "static/media/1.jpeg": "/mr-clean/static/media/1.0f5870c3.jpeg",
+    "static/media/2.jpeg": "/mr-clean/static/media/2.9edf4a90.jpeg",
+    "static/media/3.jpeg": "/mr-clean/static/media/3.ea473754.jpeg",
+    "static/media/4.jpeg": "/mr-clean/static/media/4.7c1bf01d.jpeg",
+    "static/media/cover.jpg": "/mr-clean/static/media/cover.09c6c541.jpg",
+    "static/media/f_logo_RGB-Blue_512.png": "/mr-clean/static/media/f_logo_RGB-Blue_512.f407c31b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0c0333c7.js",
-    "static/js/2.a9fd2d54.chunk.js",
-    "static/css/main.55fd9df8.chunk.css",
-    "static/js/main.1efc88aa.chunk.js"
+    "static/js/2.56deae29.chunk.js",
+    "static/css/main.96d44475.chunk.css",
+    "static/js/main.72590c7a.chunk.js"
   ]
 }
