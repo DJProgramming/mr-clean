@@ -13,7 +13,7 @@ export const LandingPage = (props: any) => {
       className={`full--width full--height ${theme}`}
     >
       <div id='showcase-images--container'>
-      {/* <div id='showcase-images' onClick={() => {theme === 'alt' ? setGlobal({theme: 'default'}) : setGlobal({theme: 'alt'})}}> */}
+        {/* <div id='showcase-images' onClick={() => {theme === 'alt' ? setGlobal({theme: 'default'}) : setGlobal({theme: 'alt'})}}> */}
         <div id='showcase-images'>
           <img
             className='showcase-image'
@@ -25,7 +25,46 @@ export const LandingPage = (props: any) => {
           Interior & Exterior Automotive Detailing
         </h2>
       </div>
-      <div id={`contact-banner--${theme}`}>
+      <div id='contact' className={theme === 'default' ? 'contact-container alt' : 'contact-container default'}>
+        <div id='contact-elements' className='constrained-content'>
+        <div className='contact-element'>
+          <a
+            id='instagram-link'
+            className='social-media--link'
+            href='https://www.instagram.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img
+              src={require('../../shared/assests/icons/sm-icons-instagram-app-icon.png')}
+              alt='instagram'
+            />
+          </a>
+        </div>
+        <div className='contact-element'>
+          <h2>Austin Burns</h2>
+          <h3>202 - 492 - 9737</h3>
+          <a id='email-link' href='mailto:dmvcleanmachine@gmail.com'>
+            dmvcleanmachine@gmail.com
+          </a>
+        </div>
+        <div className='contact-element'>
+          <a
+            id='facebook-link'
+            className='social-media--link'
+            href='https://www.facebook.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img
+              src={require('../../shared/assests/icons/f_logo_RGB-Blue_512.png')}
+              alt='facebook'
+            />
+          </a>
+        </div>
+        </div>
+      </div>
+      {/* <div id={`contact-banner--${theme}`}>
         <div className='constrained-content'>
           <div id='contact-banner-content'>
             To schedule a detailing appointment or to inquire about my services,
@@ -34,11 +73,8 @@ export const LandingPage = (props: any) => {
             <br />
             <h1>Phone: 202 - 492 - 9737</h1>
           </div>
-          {/* <h2 id='landing-page--title' className='text__center'>
-            Interior & Exterior Automotive Detailing
-          </h2> */}
         </div>
-      </div>
+      </div> */}
       <div id='services'>
         <div className='constrained-content flex--column'>
           <h1 id='services-title'>Services</h1>
@@ -46,7 +82,7 @@ export const LandingPage = (props: any) => {
             <TableRow class='hide--small' name='Name' type='Type' price='Price'>
               Details
             </TableRow>
-            <hr />
+            <hr className='hide--small'/>
             {/* Service #1 */}
             <TableRow
               name='Just the basics'
@@ -142,45 +178,9 @@ export const LandingPage = (props: any) => {
               </li>
             </ul>
           </div>
-          <h1 id='contact'>Contact</h1>
+          {/* <h1 id='contact'>Contact</h1>
           <hr />
-          <div className='contact-container'>
-            <div className='contact-element'>
-              <a
-                id='instagram-link'
-                className='social-media--link'
-                href='https://www.instagram.com'
-                target='_blank'
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={require('../../shared/assests/icons/sm-icons-instagram-app-icon.png')}
-                  alt='instagram'
-                />
-              </a>
-            </div>
-            <div className='contact-element'>
-              <h2>Austin Burns</h2>
-              <h3>202 - 492 - 9737</h3>
-              <a id='email-link' href='mailto:dmvcleanmachine@gmail.com'>
-                dmvcleanmachine@gmail.com
-              </a>
-            </div>
-            <div className='contact-element'>
-              <a
-                id='facebook-link'
-                className='social-media--link'
-                href='https://www.facebook.com'
-                target='_blank'
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={require('../../shared/assests/icons/f_logo_RGB-Blue_512.png')}
-                  alt='facebook'
-                />
-              </a>
-            </div>
-          </div>
+           */}
         </div>
       </div>
     </div>

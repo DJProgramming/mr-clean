@@ -102,9 +102,9 @@
     list-style: none;
   }
 
-  #contact {
-    text-align: center;
-  }
+  // #contact {
+  //   text-align: center;
+  // }
   
   .contact-container {
     width: 100%;
@@ -112,6 +112,11 @@
     padding: $padding__1;
     margin-bottom: $margin__xlarge;
     // border: 1px solid red;
+
+    #contact-elements {
+      display: flex;
+      margin: 0 auto;
+    }
   
     .contact-element {
       display: flex;
@@ -162,11 +167,17 @@
       // background: green;
     }
 
-    .contact-container {
+    #contact {
+      padding-top: $padding__tiny;
+      padding-bottom: $padding__tiny;
+    }
+
+    #contact-elements {
       flex-direction: column;
 
       .contact-element {
-        margin-top: $margin__large;
+        margin-top: $margin__small;
+        margin-bottom: $margin__small;
       }
     }
   }

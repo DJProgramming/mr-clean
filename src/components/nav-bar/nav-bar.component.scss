@@ -11,7 +11,9 @@
 
   #nav-bar--content {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     width: $max-width;
     padding: $padding__tiny;
   }
@@ -19,7 +21,7 @@
   #nav-bar--title {
     min-height: 2rem;
     font-size: 1.75rem;
-    margin-bottom: $margin__medium;
+    // margin-bottom: $margin__medium;
     text-decoration: none;
     color: inherit;
   }
