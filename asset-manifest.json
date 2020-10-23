@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mr-clean/static/css/main.e7c1942a.chunk.css",
-    "main.js": "/mr-clean/static/js/main.c7913929.chunk.js",
-    "main.js.map": "/mr-clean/static/js/main.c7913929.chunk.js.map",
+    "main.js": "/mr-clean/static/js/main.52d71925.chunk.js",
+    "main.js.map": "/mr-clean/static/js/main.52d71925.chunk.js.map",
     "runtime-main.js": "/mr-clean/static/js/runtime-main.0c0333c7.js",
     "runtime-main.js.map": "/mr-clean/static/js/runtime-main.0c0333c7.js.map",
     "static/js/2.27a4ab14.chunk.js": "/mr-clean/static/js/2.27a4ab14.chunk.js",
     "static/js/2.27a4ab14.chunk.js.map": "/mr-clean/static/js/2.27a4ab14.chunk.js.map",
     "index.html": "/mr-clean/index.html",
-    "precache-manifest.398c0788799b071d36bfb2c4885aba35.js": "/mr-clean/precache-manifest.398c0788799b071d36bfb2c4885aba35.js",
+    "precache-manifest.60b6abe834ad2fad758e7d38f871a92c.js": "/mr-clean/precache-manifest.60b6abe834ad2fad758e7d38f871a92c.js",
     "service-worker.js": "/mr-clean/service-worker.js",
     "static/css/main.e7c1942a.chunk.css.map": "/mr-clean/static/css/main.e7c1942a.chunk.css.map",
     "static/js/2.27a4ab14.chunk.js.LICENSE.txt": "/mr-clean/static/js/2.27a4ab14.chunk.js.LICENSE.txt",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.0c0333c7.js",
     "static/js/2.27a4ab14.chunk.js",
     "static/css/main.e7c1942a.chunk.css",
-    "static/js/main.c7913929.chunk.js"
+    "static/js/main.52d71925.chunk.js"
   ]
 }
